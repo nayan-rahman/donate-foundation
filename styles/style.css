@@ -6,7 +6,7 @@
 }
 
 .color-overlay {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../images/donation5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url(../images/donation5.jpg);
     /* background-image: linear-gradient(rgba(18, 18, 18, 0.5), #121212f5), url(../images/donation5.jpg); */
     height: 100vh;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 
 .donation-money-calculate {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .donation-money-calculate h1 {
@@ -59,7 +59,7 @@
 .money {
     width: 125px;
     height: 100px;
-    background-color: #dfdcdc59;
+    background-color: #dfdcdc46;
     padding-top: 35px;
     margin-left: 20px;
     font-size: 25px;
@@ -84,11 +84,78 @@
     border-width: 0 0 1px;
     border-color: #8080808f;
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 input,
 placeholder {
     padding-left: 300px;
     padding-bottom: 15px;
+}
+
+.donate-plan-area {
+    text-align: center;
+}
+
+.donate-plan-area h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.donate-plan-area p {
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.donate-plan-container {
+    display: flex;
+    margin-left: 80px;
+}
+
+.donate-plan-width {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.donate-container {
+    margin-bottom: 80px;
+}
+
+.food-family {
+    width: 350px;
+    height: 330px;
+    background-color: #edf5f6;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Shelter-family {
+    width: 350px;
+    height: 330px;
+    background-color: #ffeeee;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Education-child {
+    width: 350px;
+    height: 330px;
+    background-color: #fff4d6;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.food-family,
+.Shelter-family,
+.Education-child,
+img {
+    padding-top: 40px;
+}
+
+.food-family,
+.Shelter-family,
+.Education-child,
+h2,
+p {
+    padding-top: 20px;
 }
