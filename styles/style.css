@@ -58,11 +58,12 @@
 .money {
     width: 100px;
     height: 100px;
-    background-color: #FAFAFA;
-    padding-top: 30px;
-    margin-left: 10px;
+    background-color: #dfdcdc59;
+    padding-top: 35px;
+    margin-left: 20px;
     font-size: 25px;
     font-weight: 700;
+    border-radius: 5px;
 }
 
 .all-amount {
