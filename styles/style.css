@@ -85,10 +85,6 @@
     border-color: #8080808f;
     width: 50%;
     margin-bottom: 35px;
-}
-
-input,
-placeholder {
     padding-left: 300px;
     padding-bottom: 15px;
 }
@@ -176,7 +172,7 @@ p {
 }
 
 .donation-story {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .card {
@@ -196,4 +192,67 @@ p {
 
 .donation-story-card img {
     width: 300px;
+}
+
+.email-subscribe {
+    margin-bottom: 100px;
+}
+
+.get-update {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.get-update h1 {
+    font-size: 40px;
+}
+
+.get-update p {
+    font-size: 20px;
+}
+
+.subscribe-area {
+    width: 800px;
+    height: 180px;
+    margin-left: 350px;
+    background-color: #fff4d6;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 10px;
+}
+
+.subscribe-area input {
+    background-color: #D9D9D9;
+    padding: 12px 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.subscribe-area button {
+    background-color: #ff5959;
+    padding: 10px 15px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-humble {
+    width: 100%;
+    height: 160px;
+    background-color: #0B0D17;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer-humble h1 {
+    color: #FF5959;
+    font-family: 'Lobster';
+    margin-bottom: 20px;
+}
+
+.footer-humble h4 {
+    color: white;
 }
