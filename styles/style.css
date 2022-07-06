@@ -11,7 +11,7 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .banner-container {
@@ -40,4 +40,39 @@
     border-radius: 5px;
     font-weight: 500;
     font-size: 18px;
+}
+
+.donation-money-calculate {
+    text-align: center;
+}
+
+.donation-money-calculate h1 {
+    font-size: 40px;
+}
+
+.donation-money-calculate p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.money {
+    width: 100px;
+    height: 100px;
+    background-color: #FAFAFA;
+    padding-top: 30px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.all-amount {
+    display: flex;
+    margin-bottom: 120px;
+    margin-left: 30%;
+}
+
+#highlight-money {
+    border: 1px solid #FF5959;
+    color: #FF5959;
+    background-color: #ff595925;
 }
