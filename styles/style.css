@@ -44,6 +44,7 @@
 
 .donation-money-calculate {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .donation-money-calculate h1 {
@@ -52,7 +53,7 @@
 
 .donation-money-calculate p {
     font-size: 18px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .money {
@@ -68,7 +69,7 @@
 
 .all-amount {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
     margin-left: 25%;
 }
 
@@ -76,4 +77,18 @@
     border: 1px solid #FF5959;
     color: #FF5959;
     background-color: #ff595925;
+}
+
+.other-amount-donate input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #8080808f;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+input,
+placeholder {
+    padding-left: 300px;
+    padding-bottom: 15px;
 }
